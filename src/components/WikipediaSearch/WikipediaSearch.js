@@ -29,7 +29,7 @@ class WikipediaSearch extends Component {
         return (
             <div>
                 <p>Resultados para <strong>{this.state.searchWiki.value}</strong>: </p>
-                <p>{this.state.description}</p>
+                {/* <p>{this.state.description}</p> */}
                 <a href={"https://es.wikipedia.org/wiki/" + this.state.searchText} target="_blank">{"https://es.wikipedia.org/wiki/" + this.state.searchText}</a>
             </div>
         )
