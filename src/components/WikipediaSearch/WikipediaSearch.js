@@ -21,7 +21,7 @@ class WikipediaSearch extends Component {
         const { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
         this.setState({
             searchText: text,
-            description: 'Bolivia was founded on August 6, 1825.'
+            description: '...'
         })
     }
 

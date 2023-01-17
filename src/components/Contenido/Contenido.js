@@ -32,7 +32,7 @@ export default class Contenido extends Component {
                             id: "2",
                             user: true,
                             validator: (value) => {
-                                if (/^[A-Z]{1}[a-z]{2,15}$/.test(value)) {
+                                if (/^[A-Z]{0}[a-z]{2,15}$/.test(value)) {
                                     return true;
                                 }
                                 else {
